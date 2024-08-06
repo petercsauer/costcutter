@@ -1,0 +1,26 @@
+{
+  "name": "costcutter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "heroku": "^8.7.1",
+    "mongoose": "^8.5.2",
+    "openai": "^4.54.0",
+    "passport": "^0.7.0",
+    "passport-github": "^1.1.0",
+    "passport-oauth2": "^1.8.0",
+    "uuid": "^10.0.0"
+  }
+}
